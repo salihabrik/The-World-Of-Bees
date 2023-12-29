@@ -28,3 +28,15 @@ btns.forEach((btn, i) => {
     Slidernav(i);
   });
 });
+/*function toggleReadMore() {
+    var moreText = document.getElementById("more");
+    var mainText = document.getElementById("mainText");
+
+    if (moreText.style.display === "none" || moreText.style.display === "") {
+      moreText.style.display = "inline";
+      mainText.style.display = "none";
+    } else {
+      moreText.style.display = "none";
+      mainText.style.display = "inline";
+    }
+  }*/

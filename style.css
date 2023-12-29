@@ -278,11 +278,17 @@ box-shadow: 0 0 2px rgba(55, 225, 255, 0.5);
 }
 /* Large screens */
 
-
 @media (max-width: 640px){
+    .home {
+        object-fit: fill;
+        width = 640px;
+        height = 480px;
+        aspect-ratio: 16/9;
+    }
     .home .content h1{
         font-size: 3em;
         line-height: 60px;
+        
     }
     .home .content p{
         font-size: 0.8em;
@@ -290,6 +296,7 @@ box-shadow: 0 0 2px rgba(55, 225, 255, 0.5);
     }
 
 }
+
 footer {
     background-color: #333;
      color: #fff;
