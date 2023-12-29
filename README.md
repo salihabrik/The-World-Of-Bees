@@ -14,6 +14,10 @@
   - [Features](#features)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Author](#author)
+  - [© 2023 SALIHA BRIK | The World of Bees. All rights reserved.](#-2023-saliha-brik--the-world-of-bees-all-rights-reserved)
 
 ## Introduction
 In this project, we delve into the intricate lives of bees and their importance in our ecosystem. We will cover various topics such as bee species, their behavior, pollination, and the threats they face.
@@ -32,7 +36,14 @@ To get started with "The World of Bees" project, follow these steps:
 Once you have installed the project, you can run it using the following command:
 `node app.js`
 
+## Contributing
+If you would like to contribute to the project, please follow the [contributing guidelines](CONTRIBUTING.md)
 
+## License
+This project is licensed under the [MIT License](LICENSE)
 
-        <p>&copy; 2023 SALIHA BRIK | The World of Bees. All rights reserved.</p>
-      
+## Author
+- [Saliha Brik](https://github.com/salihabrik)
+
+&copy; 2023 SALIHA BRIK | The World of Bees. All rights reserved.
+- 
