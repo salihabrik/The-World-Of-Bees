@@ -34,7 +34,7 @@ header .navigation{
 }
 header .navigation .navigation-items a{
     position: relative;
-    color: ;
+    color: (45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     font-size: 1em;
     font-weight: 500;
     text-decoration: none;
@@ -86,7 +86,7 @@ section{
 }
 .home .content{
     z-index: 888;
-    color: #fff;
+    color: (45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     width: 70%;
     margin-top: 50px;
     display: none;
