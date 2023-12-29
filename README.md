@@ -1,11 +1,14 @@
 # The World of Bees
-# The World of Bees
 
-Welcome to "The World of Bees" project! This project aims to explore and showcase the fascinating world of bees.
+
+## Welcome to "The World of Bees" project! This project aims to explore and showcase the fascinating world of bees.
+
 ![Alt text](image.png)
+<hr>
+
 ## Table of Contents
 - [The World of Bees](#the-world-of-bees)
-- [The World of Bees](#the-world-of-bees-1)
+  - [Welcome to "The World of Bees" project! This project aims to explore and showcase the fascinating world of bees.](#welcome-to-the-world-of-bees-project-this-project-aims-to-explore-and-showcase-the-fascinating-world-of-bees)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
@@ -30,6 +33,6 @@ Once you have installed the project, you can run it using the following command:
 `node app.js`
 
 
-<footer>
+
         <p>&copy; 2023 SALIHA BRIK | The World of Bees. All rights reserved.</p>
-</footer>      
+      
