@@ -279,11 +279,16 @@ box-shadow: 0 0 2px rgba(55, 225, 255, 0.5);
 /* Large screens */
 
 
-@media (max-width: 560px){
-    .Home .content h1{
+@media (max-width: 640px){
+    .home .content h1{
         font-size: 3em;
         line-height: 60px;
     }
+    .home .content p{
+        font-size: 0.8em;
+        
+    }
+
 }
 footer {
     background-color: #333;
