@@ -2,7 +2,7 @@
 # The World of Bees
 
 Welcome to "The World of Bees" project! This project aims to explore and showcase the fascinating world of bees.
-
+![Alt text](image.png)
 ## Table of Contents
 - [The World of Bees](#the-world-of-bees)
 - [The World of Bees](#the-world-of-bees-1)
