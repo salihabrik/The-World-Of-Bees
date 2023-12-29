@@ -27,8 +27,9 @@ To get started with "The World of Bees" project, follow these steps:
 
 ## Usage
 Once you have installed the project, you can run it using the following command:
+`node app.js`
+
+
 <footer>
         <p>&copy; 2023 SALIHA BRIK | The World of Bees. All rights reserved.</p>
 </footer>      
-        <p>&copy; 2023 SALIHA BRIK | The World of Bees. All rights reserved.</p>
-      </footer>
