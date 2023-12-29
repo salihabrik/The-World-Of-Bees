@@ -192,6 +192,17 @@ section{
     transition: 2s ease;
     transition-property: clip-path ;
 }
+.video-slide {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
 @media (max-width: 1040px){
     header{
         padding: 12px 20px;
