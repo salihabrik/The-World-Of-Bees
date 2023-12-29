@@ -168,7 +168,7 @@ color: #fff;
     background: #fff;
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 0 0 2px rgba(255, 225, 255, 0.5);
+box-shadow: 0 0 2px rgba(55, 225, 255, 0.5);
     transition: 0.3s ease;
 }
 .slider-navigation .nav-btn.active{
