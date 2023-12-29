@@ -5,10 +5,7 @@
     box-sizing: border-box;
     font-family: "Poppins",sans-serif;
 }
-.home{
-    max-width: 100%;
-    height: auto;
-}
+
 header{
     z-index: 999;
     position: absolute;
@@ -20,10 +17,10 @@ header{
     align-items: center;
     padding: 15px 200px;
     transition: 0.5s ease;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
 }
 header .logo{
     color: #1680ac;
@@ -72,7 +69,8 @@ section{
 .home{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    height: auto;
+    object-fit: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -279,266 +277,7 @@ section{
 }
 }
 /* Large screens */
-@media (min-width: 1200px) {
-    header {
-        padding: 20px 40px; /* Adjust padding for large screens */
-    }
 
-    section {
-        padding: 120px 40px; /* Adjust padding for large screens */
-    }
-
-    .home .icons {
-        right: 30px; /* Adjust icon position for large screens */
-    }
-
-    header .navigation {
-        display: flex;
-    }
-
-    header .navigation.active {
-        position: static;
-        width: auto;
-        height: auto;
-        top: auto;
-        left: auto;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        background: none;
-    }
-
-    header .navigation .navigation-items a {
-        color: #fff; /* Adjust color for large screens */
-        font-size: 1.5em; /* Adjust font size for large screens */
-        margin: 15px; /* Adjust margin for large screens */
-    }
-
-    header .navigation .navigation-items a::before {
-        background: #fff; /* Adjust background color for large screens */
-        height: 8px; /* Adjust height for large screens */
-    }
-
-    header .navigation.active .navigation-items {
-        background: none;
-        width: auto;
-        max-width: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        border-radius: 0;
-        box-shadow: none;
-    }
-
-    .menu-btn {
-        display: none; /* Hide menu button on large screens */
-    }
-}
-/* Extra small screens - mobile phones */
-@media (max-width: 480px) {
-    header {
-        padding: 15px 20px; /* Adjust padding for extra small screens */
-    }
-
-    section {
-        padding: 80px 20px; /* Adjust padding for extra small screens */
-    }
-
-    .home .icons {
-        right: 10px; /* Adjust icon position for extra small screens */
-    }
-
-    header .navigation {
-        display: none; /* Hide navigation on extra small screens */
-    }
-
-    header .navigation.active {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: rgba(1, 1, 1, 0.5);
-    }
-
-    header .navigation .navigation-items a {
-        color: #222;
-        font-size: 1em; /* Adjust font size for extra small screens */
-        margin: 10px; /* Adjust margin for extra small screens */
-    }
-
-    header .navigation .navigation-items a::before {
-        background: #222;
-        height: 4px; /* Adjust height for extra small screens */
-    }
-
-    header .navigation.active .navigation-items {
-        background: #fff;
-        width: 80%;
-        max-width: 300px; /* Adjust max-width for extra small screens */
-        margin: 20px;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 5px;
-        box-shadow: 0 5px 15px rgb(1 1 1 / 20%);
-    }
-
-    .menu-btn {
-        background: url(images/menu.png) no-repeat;
-        background-size: 25px; /* Adjust background size for extra small screens */
-        background-position: center;
-        width: 35px; /* Adjust width for extra small screens */
-        height: 35px; /* Adjust height for extra small screens */
-        cursor: pointer;
-        transition: 0.3s ease;
-    }
-
-    .menu-btn.active {
-        z-index: 999;
-        background: url(images/close.png) no-repeat;
-        background-size: 20px; /* Adjust background size for extra small screens */
-        background-position: center;
-        transition: 0.3s ease;
-    }
-}
-/* Medium screens */
-@media (max-width: 1199px) and (min-width: 768px) {
-    header {
-        padding: 15px 30px; /* Adjust padding for medium screens */
-    }
-
-    section {
-        padding: 80px 30px; /* Adjust padding for medium screens */
-    }
-
-    .home .icons {
-        right: 20px; /* Adjust icon position for medium screens */
-    }
-
-    header .navigation {
-        display: flex;
-    }
-
-    header .navigation.active {
-        position: static;
-        width: auto;
-        height: auto;
-        top: auto;
-        left: auto;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        background: none;
-    }
-
-    header .navigation .navigation-items a {
-        color: #fff; /* Adjust color for medium screens */
-        font-size: 1.2em; /* Adjust font size for medium screens */
-        margin: 15px; /* Adjust margin for medium screens */
-    }
-
-    header .navigation .navigation-items a::before {
-        background: #fff; /* Adjust background color for medium screens */
-        height: 6px; /* Adjust height for medium screens */
-    }
-
-    header .navigation.active .navigation-items {
-        background: none;
-        width: auto;
-        max-width: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        border-radius: 0;
-        box-shadow: none;
-    }
-
-    .menu-btn {
-        display: none; /* Hide menu button on medium screens */
-    }
-}
-
-/* Small screens - tablets */
-@media (max-width: 767px) and (min-width: 481px) {
-    header {
-        padding: 12px 25px; /* Adjust padding for small screens (tablets) */
-    }
-
-    section {
-        padding: 60px 25px; /* Adjust padding for small screens (tablets) */
-    }
-
-    .home .icons {
-        right: 15px; /* Adjust icon position for small screens (tablets) */
-    }
-
-    header .navigation {
-        display: none; /* Hide navigation on small screens (tablets) */
-    }
-
-    header .navigation.active {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: rgba(1, 1, 1, 0.5);
-    }
-
-    header .navigation .navigation-items a {
-        color: #222;
-        font-size: 1em; /* Adjust font size for small screens (tablets) */
-        margin: 12px; /* Adjust margin for small screens (tablets) */
-    }
-
-    header .navigation .navigation-items a::before {
-        background: #222;
-        height: 4px; /* Adjust height for small screens (tablets) */
-    }
-
-    header .navigation.active .navigation-items {
-        background: #fff;
-        width: 80%;
-        max-width: 300px; /* Adjust max-width for small screens (tablets) */
-        margin: 15px;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 5px;
-        box-shadow: 0 5px 15px rgb(1 1 1 / 20%);
-    }
-
-    .menu-btn {
-        background: url(images/menu.png) no-repeat;
-        background-size: 25px; /* Adjust background size for small screens (tablets) */
-        background-position: center;
-        width: 35px; /* Adjust width for small screens (tablets) */
-        height: 35px; /* Adjust height for small screens (tablets) */
-        cursor: pointer;
-        transition: 0.3s ease;
-    }
-
-    .menu-btn.active {
-        z-index: 999;
-        background: url(images/close.png) no-repeat;
-        background-size: 20px; /* Adjust background size for small screens (tablets) */
-        background-position: center;
-        transition: 0.3s ease;
-    }
-}
 
 @media (max-width: 560px){
     .Home .content h1{
